@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin-top: 0;
+    position: relative; /* Make the banner text position relative to the header */
+}
+
+header img {
+    width: 100%;
+    height: 500px;
+}
+
+.banner-text {
+    position: absolute;
+    top: 85px; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center the text precisely */
+    font-size: 136px;
+}
+
+.sub-text {
+    margin-top: -10px; /* Adjust the top margin as needed */
+}
+
+.banner-line {
+    width: 100%; /* Adjust the width of the line as needed */
+    margin-top: -5px; /* Center the line horizontally */
+    border-top: 10px solid #000000; /* Set the color and thickness of the line */
+}
+
+.description {
+    margin-top: 30px; /* Adjust the top margin as needed */
+    font-size: 20px; /* Set the font size for the description */
+    font-weight: bold;
+    color: #000000; /* Set the color for the description text */
+    text-align: center; /* Center the description text */
+    max-width: 700px; /* Set a maximum width for the description */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+}
+
+.code {
+    color: #3385ff; /* Set your desired color for "Code" */
+    font-weight: bold;
+}
+
+.craft {
+    color: #0011ff; /* Set your desired color for "Craft" */
+    font-weight: bold;
+}
+
+.learn {
+    color: #3385ff; /* Set your desired color for "Learn" */
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.create {
+    color: #0011ff; /* Set your desired color for "Create" */
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.play {
+    color: #3385ff; /* Set your desired color for "Play" */
+    font-size: 36px;
+    font-weight: bold;
+}
+
+nav {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: -100px;
+    margin-left: 30px;
+    width: 1600px;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    outline: 5px solid #0011ff; /* Add outline to the navigation buttons */
+    border-radius: 10px;
+    transition: ease-in-out 0.3s ease; /* Add transition for smooth hover effect */
+    transform: scale(1.1);
+}
+
+nav li:hover a {
+    transition: 0.3s;
+    color: #3385ff;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0011ff;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+    width: 1875px;
+}
